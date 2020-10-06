@@ -1,0 +1,9 @@
+def readN():
+    n = int(input())
+    return list(int(num) for num in input().strip().split())[:n]
+
+def main():
+    n = readN()
+
+if __name__ == "__main__":
+    main()
